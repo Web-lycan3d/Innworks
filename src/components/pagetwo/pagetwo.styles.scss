@@ -1,0 +1,39 @@
+/** @format */
+
+.pagetwo-container {
+  width: 100%;
+  height: auto;
+  background: url("https://i.ibb.co/37xjnn8/pexels-daniel-smyth-8865184.png")
+    no-repeat center;
+  background-size: cover;
+}
+.pagetwo-contents {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10% 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.pagetwo-details {
+  width: 50%;
+  color: rgb(255, 253, 253);
+  h2 {
+    font-size: 3.8rem;
+    font-style: italic;
+  }
+  span {
+    line-height: 1.7;
+    font-size: 1.1rem;
+    width: 80%;
+    display: block;
+    padding: 1.5rem;
+    color: #ffffff;
+    background: #81818138 0% 0%;
+
+    backdrop-filter: blur(50px);
+
+    -webkit-backdrop-filter: blur(50px);
+  }
+}
